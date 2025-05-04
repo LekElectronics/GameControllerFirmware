@@ -9,5 +9,5 @@ Debug with STLink
 
 To Test: 
 Windows - run jpy.cpl and see this device in the list of installed game controllers. Open the properties and see the reticle moving left-right.
-Run the dotNet GameControllerTest to send output data to the device, see it be caught by the STM32 in the USBD_HID_DataOut() function in usbd_hid.c.  
+Run the [dotNet GameControllerTest](https://github.com/LekElectronics/USBHidOut) to send output data to the device, see it be caught by the STM32 in the USBD_HID_DataOut() function in usbd_hid.c.  
 
